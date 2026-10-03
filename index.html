@@ -64,20 +64,20 @@ p { margin: 0; }
 
 /* hero */
 .hero {
-  display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: end;
-  padding-block: clamp(56px, 10vw, 140px) clamp(40px, 6vw, 80px);
+  display: grid; grid-template-columns: 1.1fr .9fr; gap: 48px; align-items: end;
+  padding-block: clamp(72px, 12vw, 160px) clamp(48px, 7vw, 96px);
   border-bottom: 1px solid var(--line);
 }
 .hero h1 {
-  font-size: clamp(64px, 14vw, 200px);
-  letter-spacing: .04em; text-transform: uppercase;
+  font-size: clamp(64px, 13vw, 180px);
+  letter-spacing: .08em; text-transform: uppercase;
   line-height: .85; margin-left: -.04em;
+  font-weight: 400;
   font-variation-settings: "opsz" 96;
 }
-.hero h1 span { color: var(--ox-bright); font-style: italic; }
-.hero .intro { max-width: 36ch; display: grid; gap: 18px; padding-bottom: 10px; }
-.hero .intro p { font-size: 19px; line-height: 1.5; }
-.hero .intro .label { margin-bottom: 4px; }
+.hero .intro { max-width: 30ch; display: grid; gap: 22px; padding-bottom: 14px; }
+.hero .intro p { font-family: var(--display); font-size: clamp(20px, 2vw, 26px); line-height: 1.35; font-style: italic; }
+.hero .intro .label { font-family: var(--mono); font-size: 11px; font-style: normal; line-height: 1.6; }
 
 /* placeholder surfaces */
 .ph {
@@ -235,10 +235,10 @@ footer { padding-block: 32px 40px; display: flex; justify-content: space-between
 
 <main id="top">
   <div class="hero wrap">
-    <h1>Luci<span>fex</span></h1>
+    <h1>Lucifex</h1>
     <div class="intro">
-      <p class="label">Sculpture in leather &amp; latex · Dublin</p>
-      <p>Queer, trans work about what a body is allowed to be: gender, body image, fashion and desire, explored through the garments that measure us. Made, for now, in two skins: latex, polished and perfect, that takes the body exactly and forgets it the moment it leaves; and leather, rough and scarred, that holds a shape for decades.</p>
+      <p>Sculpture and garments in leather and latex. Queer, trans work about what a body is allowed to be.</p>
+      <p class="label">Elle Berman · Dublin</p>
     </div>
   </div>
 
