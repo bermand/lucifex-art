@@ -117,6 +117,7 @@ section { padding-block: clamp(56px, 8vw, 120px); border-bottom: 1px solid var(-
 .sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; margin-bottom: 40px; flex-wrap: wrap; }
 .sec-head h2 { font-size: clamp(34px, 5vw, 60px); font-style: italic; }
 .sec-head .label { padding-bottom: 6px; }
+.sec-head .sub { font-family: var(--body); font-size: 17px; color: var(--bone-dim); margin-top: 10px; }
 
 /* works grid */
 .works { display: grid; grid-template-columns: repeat(12, 1fr); gap: 28px 24px; }
@@ -221,8 +222,8 @@ footer { padding-block: 32px 40px; display: flex; justify-content: space-between
   <nav aria-label="Sections">
     <ul>
       <li><a href="#works">Works</a></li>
-      <li><a href="#statement">Statement</a></li>
       <li><a href="#about">About</a></li>
+      <li><a href="#statement">Statement</a></li>
       <li><a href="#vision">Vision</a></li>
       <li><a href="#theory">Theory</a></li>
       <li><a href="#materials">Materials</a></li>
@@ -241,8 +242,11 @@ footer { padding-block: 32px 40px; display: flex; justify-content: space-between
 
   <section id="works" class="wrap">
     <div class="sec-head">
-      <h2>Selected works</h2>
-      <p class="label">2024 – ongoing · six pieces</p>
+      <div>
+        <h2>Selected works</h2>
+        <p class="sub">Six objects about being fitted.</p>
+      </div>
+      <p class="label">2024 – ongoing</p>
     </div>
     <div class="works">
       <article class="work">
@@ -302,6 +306,22 @@ footer { padding-block: 32px 40px; display: flex; justify-content: space-between
     </div>
   </section>
 
+  <section id="about" class="wrap">
+    <div class="essay">
+      <div class="margin">
+        <p class="label">About</p>
+        <h2>Who is Lucifex</h2>
+      </div>
+      <div class="text">
+        <p class="lead">Lucifex is Elle Berman, a trans woman making sculpture in leather and latex in Dublin.</p>
+        <p>The work comes out of what it is like to be queer and trans and finding it hard. Not hard in the abstract: hard in the fitting room, on the measuring tape, in the garment that was made for a body that isn't yours, in the body that keeps changing and the clothes that don't. The sculptures are a way of taking those moments and making them into objects that can be looked at steadily, handled with care and shown to other people.</p>
+        <p>The struggle is only half of it. Alongside the sculpture, Elle makes garments in leather, latex and cloth that are meant to be worn, and that celebrate queer bodies as they are: cut to the person in front of her rather than to a standard block, and made to be seen in. The sculptures hold the difficulty still so it can be looked at. The garments are what happens when the fitting goes right.</p>
+        <p>Leather and latex were a deliberate choice. They are the two materials queer culture has used for a century to dress bodies that refuse to be dressed the usual way, and they behave in opposite ways: one takes the body perfectly and forgets it, the other is rough and keeps whatever shape it was given. That turned out to be a good description of transition, so the materials became the subject as well as the medium.</p>
+        <p>The practice is slow and hand-made. Everything is cut, stitched, moulded and glued by Elle in the studio, and the pieces are meant to show the time that went into them. <em>Lineup</em>, one latex cast a year for seven years, is the long project everything else sits around.</p>
+      </div>
+    </div>
+  </section>
+
   <section id="statement" class="wrap">
     <div class="essay">
       <div class="margin">
@@ -316,22 +336,6 @@ footer { padding-block: 32px 40px; display: flex; justify-content: space-between
         <p>I am not interested in shock. The work is slow and the craft is meant to be visible: saddle stitching, hand-cut edges left raw, latex seams glued and polished until the joins vanish. Care is the argument. A body that has been handled this carefully is hard to dismiss.</p>
         <p class="pull">This could be mine, and this was never for me.</p>
         <p>The pieces sit between the dress form and the figure. Some are wearable and have been worn. Some are built to the exact measurements of a person and cannot be entered at all. Alongside them I make garments that are simply meant to fit, and to celebrate the bodies they fit. The sculptures are the questions. The garments are one answer.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="about" class="wrap">
-    <div class="essay">
-      <div class="margin">
-        <p class="label">About</p>
-        <h2>Who is Lucifex</h2>
-      </div>
-      <div class="text">
-        <p class="lead">Lucifex is Elle Berman, a trans woman making sculpture in leather and latex in Dublin.</p>
-        <p>The work comes out of what it is like to be queer and trans and finding it hard. Not hard in the abstract: hard in the fitting room, on the measuring tape, in the garment that was made for a body that isn't yours, in the body that keeps changing and the clothes that don't. The sculptures are a way of taking those moments and making them into objects that can be looked at steadily, handled with care and shown to other people.</p>
-        <p>The struggle is only half of it. Alongside the sculpture, Elle makes garments in leather, latex and cloth that are meant to be worn, and that celebrate queer bodies as they are: cut to the person in front of her rather than to a standard block, and made to be seen in. The sculptures hold the difficulty still so it can be looked at. The garments are what happens when the fitting goes right.</p>
-        <p>Leather and latex were a deliberate choice. They are the two materials queer culture has used for a century to dress bodies that refuse to be dressed the usual way, and they behave in opposite ways: one takes the body perfectly and forgets it, the other is rough and keeps whatever shape it was given. That turned out to be a good description of transition, so the materials became the subject as well as the medium.</p>
-        <p>The practice is slow and hand-made. Everything is cut, stitched, moulded and glued by Elle in the studio, and the pieces are meant to show the time that went into them. <em>Lineup</em>, one latex cast a year for seven years, is the long project everything else sits around.</p>
       </div>
     </div>
   </section>
